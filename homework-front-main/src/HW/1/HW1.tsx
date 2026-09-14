@@ -2,7 +2,7 @@ import {UserList} from './UserList';
 
 export const HW1 = () => {
 
-	// 1️⃣ Раскомментируйте JSX (HW1.tsx, UserList.tsx) и вы увидите,
+	// 1️⃣ Раскомментируйте JSX (HW1.tsx, UserLis1t.tsx) и вы увидите,
 	// что приложение начнет гореть красным и ругаться 😡
 	// 2️⃣ Ваша задача: ❗ПОЧИНИТЬ ПРОЕКТ❗
 	// - прописать типизацию, где необходимо
@@ -34,7 +34,7 @@ export const HW1 = () => {
 
 	return (
 		<div id={'hw01'}>
-			{/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
+			<UserList users={users} />
 		</div>
 	);
 };
