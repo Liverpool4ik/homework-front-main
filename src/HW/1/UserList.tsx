@@ -1,7 +1,8 @@
-type AddressType = {
-  street: string; // ПОДПРАВЛЯЕМ any
-  city: string; // ПОДПРАВЛЯЕМ any
+type UserListPropsType = {
+  users: UserType[];
+  // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
 };
+
 
 type UserType = {
   id: number;
@@ -11,10 +12,12 @@ type UserType = {
   // ПРИДЕТСЯ САМОМУ)
 };
 
-type UserListPropsType = {
-  users: UserType[];
-  // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+
+type AddressType = {
+  street: string; // ПОДПРАВЛЯЕМ any
+  city: string; // ПОДПРАВЛЯЕМ any
 };
+
 
 export const UserList = (props: UserListPropsType)=> {
   return (
